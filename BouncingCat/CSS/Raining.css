@@ -1,0 +1,33 @@
+/* 
+*	Chrome : body {margin:8px}
+*	Safari :
+*	Opera :
+*	IE :
+*	Firefox :
+*
+*	Je regle le probleme : 
+*/
+body{
+	position:static;
+	margin:0px;
+}
+
+.parent{
+	/* Cadre de jeu */
+		width : 750px;
+		height: 750px;
+		border: 1px solid;
+}
+
+.objectChat{
+	/* Taille */
+		width: 80px;
+		height: 80px;
+		/* Point central du chat en [40,40] */
+	/* Position */
+		position:relative;
+		/* 750/2 = 375 - (80/2 = 40) = 335 */
+		left: 335px;
+	/* Utilisation d'une image de chat pré-existante */
+		background-image: url("../img/chat.png");
+}

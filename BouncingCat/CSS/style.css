@@ -1,0 +1,177 @@
+﻿body{
+	/*color_style*/
+		background : #DDD;
+		color : white;
+	/*color_style*/
+}
+
+#zone_utile{ /* définition du cadre fixe dans lequel tout cva se passer */
+	
+
+	/*	position*/
+		position : relative;
+		margin-left : auto;						/*	centrage		*/
+		margin-right : auto;						/*	horizontal	*/
+
+		width : 1274px;
+		height :788px;
+	/*	position*/
+
+	/* color_style */
+		background : #11D;
+		box-shadow : 10px 10px 5px #888888;
+	/*	/color_style */
+}
+
+header{ /* l'en-tête, avec le titre */
+	
+	 
+	
+	/*	position*/
+		display : inline-block;
+		position : absolute;
+		top : 0px;
+		width : 100%;
+		height : 120px;
+	/*	position*/
+
+	/*	color_style*/
+		background : #CCC;
+		text-align : center;
+		font : 24pt;
+		color : blue;
+	/*	/color_style*/
+}
+
+nav{	/* le menu , sur le coté gauche */
+	
+
+	/*	position*/
+		display : inline-block;
+		position : absolute;
+		left : 0px;
+		top : 144px;
+		width :225px;
+		height : 556px;
+	/*	/position*/
+
+	/*	color_style */
+		background : #77F
+	/*	/color_style */
+}
+
+
+#jeu{ /* la zone ou vont etre chargé les jeux (zone principale) */
+	
+
+	/*	position*/
+		display : inline-block;
+		position : absolute;
+		left : 239px;
+		top : 144px;
+		width : 800px;
+		height : 560px;
+	/*	/position*/
+
+	/*	color_style */
+		background :black;
+		color : blue;
+		text-align : center;
+		overflow: auto;
+	/*	/color_style */
+}
+
+#classement{ /* top 10 général / top 10 du jeu en cours */
+	
+
+	/*	position*/
+		display : inline-block;
+		position : absolute;
+		top : 144px;
+		right : 0px;
+		width : 221px;
+		height : 556px;
+	/*	/position */
+
+	/*	coloration_style */
+		background : #77F;
+		color : black;
+		text-align : right;
+	/*	/coloration_style */
+}
+
+#classement li{ /* les rangs du top 10 */
+	font-size: 12pt;
+}
+
+footer{ /* le pied de page avec le copyright */
+	
+
+	/*	position*/
+		display : inline-block;
+		position : absolute;
+		bottom : 0px;
+		width : 100%;
+		height : 80px;
+	/*	position*/
+
+	/*	color_style*/
+		background : #CCC;
+		text-align : center;
+		text-decoration : blink;
+		font : 24pt;
+		color : blue;
+	/*	/color_style*/
+}
+
+
+form{ /* les formulaires  */
+	
+
+
+	/*	position*/
+		display : inline-block;
+		position : relative;
+		left : 30%;						/*	centrage		*/
+		right : 30%;						/*	horizontal	*/
+		top : 30%;
+		width : 40%;
+		height :auto;
+		 
+	/*	/position*/
+	
+	/*	color_style*/
+		background : grey;
+	/*	color_style*/
+
+}
+form a{
+font-size : 8pt;
+text-align : center;
+margin-bottom : 5px;
+padding : 5px;
+}
+#connexion{
+/*	position*/
+		display : inline-block;
+		position : relative;
+		left :10px;
+		top : 5px;
+		width : 120px;
+		height :auto;
+		 
+	/*	/position*/
+	
+	/*	color_style*/
+		background : grey;
+	/*	color_style*/
+}
+
+#connexion input{
+	width : 90%;
+}
+
+a.visited{
+	color : pink;
+}
+

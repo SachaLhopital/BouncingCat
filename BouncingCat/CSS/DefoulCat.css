@@ -1,0 +1,24 @@
+﻿/* Définition de l'image du chat à déplacer */
+.balls1{
+	/* Taille & Bordure */
+	width: 135px;
+	height: 135px;
+	/* Utilisation d'une image de chat pré-existante */
+	background-image:url("../img/Cats/Cat.png");
+}
+
+/* Définition du cadre de jeu */
+.parent{
+	/* Position par rapport à la page */
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	/* Taille du cadre de jeu */
+	width: 800px;
+	height: 500px;
+	border-radius: 20px;
+	background-image:url("../img/Ciel.jpg");
+	background-size: cover; /* affiche le ciel sans doublon */
+}
+									
+
